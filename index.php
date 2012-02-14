@@ -1,11 +1,11 @@
 <?php
+date_default_timezone_set('Asia/Tokyo');
 
 $key = '(＃＾ω＾)ﾋﾟｷﾋﾟｷ度';
 $url = 'http://ptan.info/pikipiki/';
 $urlPath = '/pikipiki/';
 $bitlyUrl = 'http://ptan.info/bitly/?url=';
 
-$ua = $_SERVER['HTTP_USER_AGENT'];
 $id = trim($_REQUEST['id']);
 $date = date("Ymd");
 $todayYmd = date("Ymd");
